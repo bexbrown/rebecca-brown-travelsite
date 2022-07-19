@@ -1,0 +1,21 @@
+.main-section {
+    margin: 5em 0;
+} 
+
+.card__div {
+    flex-direction: column;
+}
+
+
+.card__title,
+.card__list, 
+.card__item {
+    color: #000;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+.card__item {
+    border: solid black 1px;
+}

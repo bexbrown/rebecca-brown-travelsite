@@ -1,0 +1,31 @@
+.navigation__item--selected {
+    border-bottom: 4px solid #DB7A4E;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 7em 0;
+}
+
+.hero__section {
+    width: 50%;
+    padding: 3em;
+}
+
+.hero__image {
+    height: 25em;
+}
+
+/* .card__div {
+} */
+
+.card__image {
+    height: 20em;
+
+}
+
+.card__destination {
+    color: red;
+}
