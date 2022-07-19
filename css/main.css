@@ -18,9 +18,9 @@
 }
 
 .card__link {
-    align-items: flex-end;
     background-position: center;
     background-size: cover;
+    justify-content: flex-end;
 }
 
 
@@ -45,5 +45,5 @@
 .card__destination {
     align-self: flex-end;
     justify-self: center;
-    color: red;
+    color: #FFF;
 }
