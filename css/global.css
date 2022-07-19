@@ -64,16 +64,12 @@ body {
     padding-bottom: 5em;
 }
 
-.card__div {
-    height: 20em;
-    width: 20em;
+.card__link {
+    height: 25rem;
+    width: 17rem;
     border: solid black 2px;
-    display: flex;
+    
 }
-
-
-
-
 
 
 .footer {

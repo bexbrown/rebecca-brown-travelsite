@@ -2,7 +2,6 @@
     border-bottom: 4px solid #DB7A4E;
 }
 
-
 .hero {
     display: flex;
     align-items: center;
@@ -18,14 +17,33 @@
     height: 25em;
 }
 
-/* .card__div {
-} */
+.card__link {
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .card__image {
     height: 20em;
 
 }
 
+.card__link--hawaii {
+    background-image: url(../assets/hawaii.jpg);
+}
+
+.card__link--iceland {
+    background-image: url(../assets/iceland.jpg);
+
+}
+
+.card__link--greece {
+    background-image: url(../assets/greece.jpg);
+}
+
 .card__destination {
+    align-self: flex-end;
+    justify-self: center;
     color: red;
 }
