@@ -28,6 +28,10 @@
     background-image: url(../assets/iceland.jpg);
 }
 
+.card__container {
+    margin: 1em;
+}
+
 .card__div {
     background-color: #FFF;
     padding: 1em;
@@ -36,7 +40,7 @@
 
 .card__item {
     padding: 1em 0;
-    margin: 1em;
+    margin: 1em 0;
 }
 
 
