@@ -21,6 +21,10 @@
     height: 25em;
 }
 
+.recommendations__title {
+    padding: 1em 0 0.5em 3.5em;
+}
+
 .card__link {
     background-position: center;
     background-size: 100% 100%;

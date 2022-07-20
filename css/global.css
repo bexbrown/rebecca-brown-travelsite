@@ -70,6 +70,11 @@ body {
     box-shadow: 0 4px 4px rgba(0,0,0,0.2);
 }
 
+.card__div--middle,
+.card__link--iceland {
+    margin: 0 3em;
+}
+
 .card__link {
     display: flex;
 }

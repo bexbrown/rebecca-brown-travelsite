@@ -11,6 +11,8 @@
 
 .main__title {
     color: #FFF;
+    font-size: 5rem;
+    padding: 1em 0 0 1em;
 }
 
 .main-section--hawaii {
@@ -28,6 +30,13 @@
 
 .card__div {
     background-color: #FFF;
+    padding: 1em;
+}
+
+
+.card__item {
+    padding: 1em 0;
+    margin: 1em;
 }
 
 
@@ -40,7 +49,8 @@
 }
 
 .card__title {
-    border-bottom: 2px solid #000;
+    border-bottom: 3px solid #000;
+    font-size: 1.25rem;
 }
 
 .card__item {
