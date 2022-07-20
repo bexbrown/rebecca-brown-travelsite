@@ -43,14 +43,6 @@ body {
     text-decoration: none;
 }
 
-.navigation__link:hover {
-    border-bottom: 4px solid #DB7A4E;
-}
-
-.navigation__item--selected:hover {
-    border-bottom: 0;
-}
-
 
 
 .hero,
