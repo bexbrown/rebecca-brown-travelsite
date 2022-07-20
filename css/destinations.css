@@ -1,9 +1,16 @@
 .main-section {
-    margin: 5em 0;
+    margin: 5em 0 0 0;
+    height: 100vh;
 } 
 
+.main-section--hawaii {
+    background-image: url(../assets/hawaii.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
 .card__div {
-    flex-direction: column;
+    background-color: #FFF;
 }
 
 
@@ -14,8 +21,4 @@
     text-align:center;
     margin: 0;
     padding: 0;
-}
-
-.card__item {
-    border: solid black 1px;
 }
