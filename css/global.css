@@ -43,6 +43,11 @@ body {
     text-decoration: none;
 }
 
+.navigation__link--logo {
+    color: #335576;
+    font-weight: 800;
+}
+
 
 
 .hero,
@@ -88,6 +93,9 @@ body {
     align-self: flex-end;
 }
 
+.footer__subtitle {
+    color: #DB7A4E;
+}
 
 
 

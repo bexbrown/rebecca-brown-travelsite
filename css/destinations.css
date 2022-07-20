@@ -9,6 +9,10 @@
     background-size: 100%;
 } 
 
+.main__title {
+    color: #FFF;
+}
+
 .main-section--hawaii {
     background-image: url(../assets/hawaii.jpg);
 
@@ -28,10 +32,17 @@
 
 
 .card__title,
-.card__list, 
-.card__item {
-    color: #000;
+.card__list {
     text-align:center;
     margin: 0;
     padding: 0;
+    color: #000;
+}
+
+.card__title {
+    border-bottom: 2px solid #000;
+}
+
+.card__item {
+    background-color: #FEFAF5;
 }

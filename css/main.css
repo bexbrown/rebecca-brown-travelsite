@@ -9,8 +9,12 @@
 }
 
 .hero__section {
-    width: 50%;
     padding: 3em;
+}
+
+.hero__button {
+    background-color: #DB7A4E;
+    color: #FFF;
 }
 
 .hero__image {
