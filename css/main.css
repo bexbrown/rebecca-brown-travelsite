@@ -3,13 +3,23 @@
 }
 
 .hero {
+    background-color: #FEFAF5;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 7em 0 5em 0;
 }
 
 .hero-section {
     padding: 0 6em;
+}
+
+.hero-section--text {
+    width: 60%;
+}
+
+.hero-section--image {
+    width: 40%;
 }
 
 .hero__title {
@@ -31,17 +41,16 @@
 }
 
 .hero__image {
-    height: 25em;
-    padding-right: 6em;
+    width: 60%;
 }
 
 .recommendations__title {
-    padding: 1em 0 0.5em 3.5em;
+    padding: 1em 0 0.5em 4em;
 }
 
 .card__link {
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 101% 101%;
     justify-content: flex-end;
 }
 
