@@ -1,11 +1,13 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #FFF;
-    color:#335576;
+    color: #335576;
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -37,7 +39,7 @@ body {
 
 .navigation__list,
 .card__list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .navigation__link,
@@ -68,13 +70,13 @@ body {
     padding-bottom: 5em;
 }
 
-.card__div, 
+.card__div,
 .card__link {
     height: 22rem;
     width: 17rem;
-    border: 1px solid rgba(0,0,0,0.2); 
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card__div--middle,
@@ -114,6 +116,7 @@ body {
 .footer-section__div {
     padding: 0 2em;
 }
+
 .footer-section__bottom {
     align-self: flex-end;
 }
@@ -123,6 +126,8 @@ body {
     margin: 1.5em 2em 0 0;
 }
 
+/* navigation link hover */
 
-
-
+.navigation__item:hover {
+    border-bottom: 4px solid #DB7A4E;
+}
