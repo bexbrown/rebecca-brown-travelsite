@@ -7,7 +7,7 @@
     height: 100vh;
     background-position: center;
     background-size: 100%;
-} 
+}
 
 .main__title {
     color: #FFF;
@@ -17,7 +17,6 @@
 
 .main-section--hawaii {
     background-image: url(../assets/hawaii.jpg);
-
 }
 
 .main-section--greece {
@@ -37,16 +36,14 @@
     padding: 1em;
 }
 
-
 .card__item {
     padding: 0.75em 0;
     margin: 1em 0;
 }
 
-
 .card__title,
 .card__list {
-    text-align:center;
+    text-align: center;
     margin: 0;
     padding: 0;
     color: #000;

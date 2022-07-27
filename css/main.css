@@ -44,16 +44,22 @@
     padding: 1em 0 0.5em 4em;
 }
 
+.card__destination {
+    display: flex;
+}
+
 .card__link {
     background-position: center;
     background-size: 101% 101%;
     justify-content: flex-end;
+    align-items: flex-end;
+    color: #FFF;
+    padding: 0.5em;
 }
 
 
 .card__image {
     height: 20em;
-
 }
 
 .card__link--hawaii {
@@ -62,15 +68,8 @@
 
 .card__link--iceland {
     background-image: url(../assets/iceland.jpg);
-
 }
 
 .card__link--greece {
     background-image: url(../assets/greece.jpg);
-}
-
-.card__destination {
-    align-self: flex-end;
-    justify-self: center;
-    color: #FFF;
 }
